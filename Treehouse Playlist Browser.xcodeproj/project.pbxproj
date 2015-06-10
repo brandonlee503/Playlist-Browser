@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		160E0D4E1B27F00D00F708F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */; };
-		160E0D501B27F00D00F708F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D4F1B27F00D00F708F2 /* ViewController.swift */; };
+		160E0D501B27F00D00F708F2 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D4F1B27F00D00F708F2 /* PlaylistMasterViewController.swift */; };
 		160E0D531B27F00D00F708F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D511B27F00D00F708F2 /* Main.storyboard */; };
 		160E0D551B27F00D00F708F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D541B27F00D00F708F2 /* Images.xcassets */; };
 		160E0D581B27F00D00F708F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D561B27F00D00F708F2 /* LaunchScreen.xib */; };
 		160E0D641B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */; };
+		160E0D6E1B27FB8600F708F2 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		160E0D481B27F00D00F708F2 /* Treehouse Playlist Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treehouse Playlist Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160E0D4C1B27F00D00F708F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		160E0D4F1B27F00D00F708F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160E0D4F1B27F00D00F708F2 /* PlaylistMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistMasterViewController.swift; sourceTree = "<group>"; };
 		160E0D521B27F00D00F708F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		160E0D541B27F00D00F708F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		160E0D571B27F00D00F708F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		160E0D5D1B27F00D00F708F2 /* Treehouse Playlist BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treehouse Playlist BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		160E0D621B27F00D00F708F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treehouse_Playlist_BrowserTests.swift; sourceTree = "<group>"; };
+		160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */,
-				160E0D4F1B27F00D00F708F2 /* ViewController.swift */,
+				160E0D4F1B27F00D00F708F2 /* PlaylistMasterViewController.swift */,
+				160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */,
 				160E0D511B27F00D00F708F2 /* Main.storyboard */,
 				160E0D541B27F00D00F708F2 /* Images.xcassets */,
 				160E0D561B27F00D00F708F2 /* LaunchScreen.xib */,
@@ -212,7 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160E0D501B27F00D00F708F2 /* ViewController.swift in Sources */,
+				160E0D6E1B27FB8600F708F2 /* PlaylistDetailViewController.swift in Sources */,
+				160E0D501B27F00D00F708F2 /* PlaylistMasterViewController.swift in Sources */,
 				160E0D4E1B27F00D00F708F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

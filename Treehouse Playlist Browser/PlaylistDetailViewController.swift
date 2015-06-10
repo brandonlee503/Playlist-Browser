@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  PlaylistDetailViewController.swift
 //  Treehouse Playlist Browser
 //
 //  Created by Brandon Lee on 6/9/15.
@@ -8,18 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class PlaylistDetailViewController: UIViewController {
+    
+    @IBOutlet weak var buttonPressLabel: UILabel!
+    var segueLabelText: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        buttonPressLabel.text = segueLabelText
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
