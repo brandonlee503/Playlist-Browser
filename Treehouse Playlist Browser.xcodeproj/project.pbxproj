@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160E0D4E1B27F00D00F708F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */; };
+		160E0D501B27F00D00F708F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D4F1B27F00D00F708F2 /* ViewController.swift */; };
+		160E0D531B27F00D00F708F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D511B27F00D00F708F2 /* Main.storyboard */; };
+		160E0D551B27F00D00F708F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D541B27F00D00F708F2 /* Images.xcassets */; };
+		160E0D581B27F00D00F708F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D561B27F00D00F708F2 /* LaunchScreen.xib */; };
+		160E0D641B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		160E0D5E1B27F00D00F708F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 160E0D401B27F00D00F708F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 160E0D471B27F00D00F708F2;
+			remoteInfo = "Treehouse Playlist Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		160E0D481B27F00D00F708F2 /* Treehouse Playlist Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Treehouse Playlist Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160E0D4C1B27F00D00F708F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		160E0D4F1B27F00D00F708F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		160E0D521B27F00D00F708F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		160E0D541B27F00D00F708F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		160E0D571B27F00D00F708F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		160E0D5D1B27F00D00F708F2 /* Treehouse Playlist BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Treehouse Playlist BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		160E0D621B27F00D00F708F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treehouse_Playlist_BrowserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		160E0D451B27F00D00F708F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160E0D5A1B27F00D00F708F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160E0D3F1B27F00D00F708F2 = {
+			isa = PBXGroup;
+			children = (
+				160E0D4A1B27F00D00F708F2 /* Treehouse Playlist Browser */,
+				160E0D601B27F00D00F708F2 /* Treehouse Playlist BrowserTests */,
+				160E0D491B27F00D00F708F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		160E0D491B27F00D00F708F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				160E0D481B27F00D00F708F2 /* Treehouse Playlist Browser.app */,
+				160E0D5D1B27F00D00F708F2 /* Treehouse Playlist BrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		160E0D4A1B27F00D00F708F2 /* Treehouse Playlist Browser */ = {
+			isa = PBXGroup;
+			children = (
+				160E0D4D1B27F00D00F708F2 /* AppDelegate.swift */,
+				160E0D4F1B27F00D00F708F2 /* ViewController.swift */,
+				160E0D511B27F00D00F708F2 /* Main.storyboard */,
+				160E0D541B27F00D00F708F2 /* Images.xcassets */,
+				160E0D561B27F00D00F708F2 /* LaunchScreen.xib */,
+				160E0D4B1B27F00D00F708F2 /* Supporting Files */,
+			);
+			path = "Treehouse Playlist Browser";
+			sourceTree = "<group>";
+		};
+		160E0D4B1B27F00D00F708F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160E0D4C1B27F00D00F708F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		160E0D601B27F00D00F708F2 /* Treehouse Playlist BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */,
+				160E0D611B27F00D00F708F2 /* Supporting Files */,
+			);
+			path = "Treehouse Playlist BrowserTests";
+			sourceTree = "<group>";
+		};
+		160E0D611B27F00D00F708F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				160E0D621B27F00D00F708F2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		160E0D471B27F00D00F708F2 /* Treehouse Playlist Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160E0D671B27F00D00F708F2 /* Build configuration list for PBXNativeTarget "Treehouse Playlist Browser" */;
+			buildPhases = (
+				160E0D441B27F00D00F708F2 /* Sources */,
+				160E0D451B27F00D00F708F2 /* Frameworks */,
+				160E0D461B27F00D00F708F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Treehouse Playlist Browser";
+			productName = "Treehouse Playlist Browser";
+			productReference = 160E0D481B27F00D00F708F2 /* Treehouse Playlist Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		160E0D5C1B27F00D00F708F2 /* Treehouse Playlist BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 160E0D6A1B27F00D00F708F2 /* Build configuration list for PBXNativeTarget "Treehouse Playlist BrowserTests" */;
+			buildPhases = (
+				160E0D591B27F00D00F708F2 /* Sources */,
+				160E0D5A1B27F00D00F708F2 /* Frameworks */,
+				160E0D5B1B27F00D00F708F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				160E0D5F1B27F00D00F708F2 /* PBXTargetDependency */,
+			);
+			name = "Treehouse Playlist BrowserTests";
+			productName = "Treehouse Playlist BrowserTests";
+			productReference = 160E0D5D1B27F00D00F708F2 /* Treehouse Playlist BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		160E0D401B27F00D00F708F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Brandon Lee";
+				TargetAttributes = {
+					160E0D471B27F00D00F708F2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					160E0D5C1B27F00D00F708F2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 160E0D471B27F00D00F708F2;
+					};
+				};
+			};
+			buildConfigurationList = 160E0D431B27F00D00F708F2 /* Build configuration list for PBXProject "Treehouse Playlist Browser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 160E0D3F1B27F00D00F708F2;
+			productRefGroup = 160E0D491B27F00D00F708F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				160E0D471B27F00D00F708F2 /* Treehouse Playlist Browser */,
+				160E0D5C1B27F00D00F708F2 /* Treehouse Playlist BrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		160E0D461B27F00D00F708F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160E0D531B27F00D00F708F2 /* Main.storyboard in Resources */,
+				160E0D581B27F00D00F708F2 /* LaunchScreen.xib in Resources */,
+				160E0D551B27F00D00F708F2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160E0D5B1B27F00D00F708F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		160E0D441B27F00D00F708F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160E0D501B27F00D00F708F2 /* ViewController.swift in Sources */,
+				160E0D4E1B27F00D00F708F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		160E0D591B27F00D00F708F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160E0D641B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		160E0D5F1B27F00D00F708F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 160E0D471B27F00D00F708F2 /* Treehouse Playlist Browser */;
+			targetProxy = 160E0D5E1B27F00D00F708F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		160E0D511B27F00D00F708F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160E0D521B27F00D00F708F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		160E0D561B27F00D00F708F2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				160E0D571B27F00D00F708F2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		160E0D651B27F00D00F708F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		160E0D661B27F00D00F708F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		160E0D681B27F00D00F708F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Treehouse Playlist Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		160E0D691B27F00D00F708F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Treehouse Playlist Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		160E0D6B1B27F00D00F708F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Treehouse Playlist BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treehouse Playlist Browser.app/Treehouse Playlist Browser";
+			};
+			name = Debug;
+		};
+		160E0D6C1B27F00D00F708F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Treehouse Playlist BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Treehouse Playlist Browser.app/Treehouse Playlist Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		160E0D431B27F00D00F708F2 /* Build configuration list for PBXProject "Treehouse Playlist Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160E0D651B27F00D00F708F2 /* Debug */,
+				160E0D661B27F00D00F708F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		160E0D671B27F00D00F708F2 /* Build configuration list for PBXNativeTarget "Treehouse Playlist Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160E0D681B27F00D00F708F2 /* Debug */,
+				160E0D691B27F00D00F708F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		160E0D6A1B27F00D00F708F2 /* Build configuration list for PBXNativeTarget "Treehouse Playlist BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				160E0D6B1B27F00D00F708F2 /* Debug */,
+				160E0D6C1B27F00D00F708F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 160E0D401B27F00D00F708F2 /* Project object */;
+}
