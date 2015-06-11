@@ -14,6 +14,8 @@
 		160E0D581B27F00D00F708F2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 160E0D561B27F00D00F708F2 /* LaunchScreen.xib */; };
 		160E0D641B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */; };
 		160E0D6E1B27FB8600F708F2 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */; };
+		1657A8A71B291CA70022D13B /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657A8A61B291CA70022D13B /* MusicLibrary.swift */; };
+		1657A8A91B291F100022D13B /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1657A8A81B291F100022D13B /* Playlist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		160E0D621B27F00D00F708F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		160E0D631B27F00D00F708F2 /* Treehouse_Playlist_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treehouse_Playlist_BrowserTests.swift; sourceTree = "<group>"; };
 		160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		1657A8A61B291CA70022D13B /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MusicLibrary.swift; path = ../MusicLibrary.swift; sourceTree = "<group>"; };
+		1657A8A81B291F100022D13B /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				160E0D4F1B27F00D00F708F2 /* PlaylistMasterViewController.swift */,
 				160E0D6D1B27FB8600F708F2 /* PlaylistDetailViewController.swift */,
 				160E0D511B27F00D00F708F2 /* Main.storyboard */,
+				1657A8A61B291CA70022D13B /* MusicLibrary.swift */,
+				1657A8A81B291F100022D13B /* Playlist.swift */,
 				160E0D541B27F00D00F708F2 /* Images.xcassets */,
 				160E0D561B27F00D00F708F2 /* LaunchScreen.xib */,
 				160E0D4B1B27F00D00F708F2 /* Supporting Files */,
@@ -218,6 +224,8 @@
 				160E0D6E1B27FB8600F708F2 /* PlaylistDetailViewController.swift in Sources */,
 				160E0D501B27F00D00F708F2 /* PlaylistMasterViewController.swift in Sources */,
 				160E0D4E1B27F00D00F708F2 /* AppDelegate.swift in Sources */,
+				1657A8A71B291CA70022D13B /* MusicLibrary.swift in Sources */,
+				1657A8A91B291F100022D13B /* Playlist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +421,7 @@
 				160E0D691B27F00D00F708F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		160E0D6A1B27F00D00F708F2 /* Build configuration list for PBXNativeTarget "Treehouse Playlist BrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +430,7 @@
 				160E0D6C1B27F00D00F708F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
