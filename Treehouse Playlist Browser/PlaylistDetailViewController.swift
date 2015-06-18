@@ -14,9 +14,6 @@ class PlaylistDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if playlist != nil {
-            buttonPressLabel.text = playlist!.title
-        }
     }
 
     override func didReceiveMemoryWarning() {

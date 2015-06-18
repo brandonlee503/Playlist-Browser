@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="It8-lo-H9H">
-                                <rect key="frame" x="137" y="354" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="It8-lo-H9H">
+                                <rect key="frame" x="137" y="328" width="46" height="30"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -27,12 +27,19 @@
                                     <segue destination="7xG-Ss-PqM" kind="push" identifier="showPlaylistDetail" id="3Pp-ij-y6S"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="7tt-fA-7HO">
-                                <rect key="frame" x="60" y="129" width="200" height="200"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="7tt-fA-7HO">
+                                <rect key="frame" x="127" y="247.5" width="66" height="73"/>
                                 <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="7tt-fA-7HO" secondAttribute="centerY" id="08T-SQ-i8u"/>
+                            <constraint firstAttribute="centerX" secondItem="7tt-fA-7HO" secondAttribute="centerX" id="2b0-gH-4xn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="It8-lo-H9H" secondAttribute="trailing" constant="121" id="F1V-IY-IIH"/>
+                            <constraint firstItem="It8-lo-H9H" firstAttribute="top" secondItem="7tt-fA-7HO" secondAttribute="bottom" constant="8" id="c9j-Cb-p1X"/>
+                            <constraint firstItem="It8-lo-H9H" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="121" id="h9j-aS-ifd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="ksO-LS-W7O"/>
                     <connections>
@@ -56,16 +63,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Vqs-bd-Kva">
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Mo-f1-bU5">
+                                <rect key="frame" x="0.0" y="234" width="320" height="120"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Title Goes Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2m-jG-AGH">
+                                        <rect key="frame" x="20" y="10" width="113.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obN-y6-RCV">
+                                        <rect key="frame" x="20" y="38.5" width="280" height="42.5"/>
+                                        <string key="text">This is a collection of my favorite songs to listen to when working out. It's got everything from fast cardio to power workout tunes. All the right fuel to get your engine going.</string>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="obN-y6-RCV" secondAttribute="trailing" constant="20" id="0mW-xY-jaZ"/>
+                                    <constraint firstItem="obN-y6-RCV" firstAttribute="top" secondItem="e2m-jG-AGH" secondAttribute="bottom" constant="8" id="Bua-HB-ChH"/>
+                                    <constraint firstAttribute="width" secondItem="3Mo-f1-bU5" secondAttribute="height" multiplier="8:3" id="Oud-kI-Thx"/>
+                                    <constraint firstItem="e2m-jG-AGH" firstAttribute="top" secondItem="3Mo-f1-bU5" secondAttribute="top" constant="10" id="mqg-2Q-oEW"/>
+                                    <constraint firstItem="obN-y6-RCV" firstAttribute="leading" secondItem="3Mo-f1-bU5" secondAttribute="leading" constant="20" id="p9l-RV-ONa"/>
+                                    <constraint firstItem="e2m-jG-AGH" firstAttribute="leading" secondItem="3Mo-f1-bU5" secondAttribute="leading" constant="20" id="pp8-dp-Spy"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PLT-S1-PyA">
                                 <rect key="frame" x="0.0" y="64" width="320" height="290"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Vqs-bd-Kva" secondAttribute="height" multiplier="32:29" id="FMi-QP-MRf"/>
+                                    <constraint firstAttribute="width" secondItem="PLT-S1-PyA" secondAttribute="height" multiplier="32:29" id="Z7Y-OE-iFM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882352941" green="0.18431372549019609" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Vqs-bd-Kva" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leadingMargin" id="cbd-Hr-tTj"/>
+                            <constraint firstItem="3Mo-f1-bU5" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leading" id="D5n-CA-hIY"/>
+                            <constraint firstItem="3Mo-f1-bU5" firstAttribute="bottom" secondItem="PLT-S1-PyA" secondAttribute="bottom" id="FUp-HG-sES"/>
+                            <constraint firstItem="PLT-S1-PyA" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leading" id="NCE-cu-pCE"/>
+                            <constraint firstAttribute="trailing" secondItem="3Mo-f1-bU5" secondAttribute="trailing" id="wSz-QA-bvX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="WeQ-Gu-PEZ"/>
