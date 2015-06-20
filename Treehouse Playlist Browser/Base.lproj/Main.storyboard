@@ -63,16 +63,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Mo-f1-bU5">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Mo-f1-bU5">
                                 <rect key="frame" x="0.0" y="234" width="320" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Title Goes Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2m-jG-AGH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title Goes Here" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2m-jG-AGH">
                                         <rect key="frame" x="20" y="10" width="113.5" height="20.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obN-y6-RCV">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obN-y6-RCV">
                                         <rect key="frame" x="20" y="38.5" width="280" height="42.5"/>
                                         <string key="text">This is a collection of my favorite songs to listen to when working out. It's got everything from fast cardio to power workout tunes. All the right fuel to get your engine going.</string>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="12"/>
@@ -90,7 +90,7 @@
                                     <constraint firstItem="e2m-jG-AGH" firstAttribute="leading" secondItem="3Mo-f1-bU5" secondAttribute="leading" constant="20" id="pp8-dp-Spy"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PLT-S1-PyA">
+                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PLT-S1-PyA">
                                 <rect key="frame" x="0.0" y="64" width="320" height="290"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="PLT-S1-PyA" secondAttribute="height" multiplier="32:29" id="Z7Y-OE-iFM"/>
@@ -102,10 +102,18 @@
                             <constraint firstItem="3Mo-f1-bU5" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leading" id="D5n-CA-hIY"/>
                             <constraint firstItem="3Mo-f1-bU5" firstAttribute="bottom" secondItem="PLT-S1-PyA" secondAttribute="bottom" id="FUp-HG-sES"/>
                             <constraint firstItem="PLT-S1-PyA" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leading" id="NCE-cu-pCE"/>
+                            <constraint firstItem="PLT-S1-PyA" firstAttribute="leading" secondItem="XBa-kH-P4N" secondAttribute="leadingMargin" constant="-16" id="Uv7-4G-kGe"/>
+                            <constraint firstItem="PLT-S1-PyA" firstAttribute="top" secondItem="Tb7-V3-NXf" secondAttribute="bottom" id="qhr-NH-h0S"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PLT-S1-PyA" secondAttribute="trailing" constant="-16" id="t8S-VE-iel"/>
                             <constraint firstAttribute="trailing" secondItem="3Mo-f1-bU5" secondAttribute="trailing" id="wSz-QA-bvX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="WeQ-Gu-PEZ"/>
+                    <connections>
+                        <outlet property="playlistCoverImage" destination="PLT-S1-PyA" id="lef-ms-LPq"/>
+                        <outlet property="playlistDescription" destination="obN-y6-RCV" id="wtg-Mk-acP"/>
+                        <outlet property="playlistTitle" destination="e2m-jG-AGH" id="pzG-kt-iOV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zJa-8w-gon" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
