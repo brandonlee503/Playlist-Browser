@@ -53,6 +53,7 @@ class PlaylistMasterViewController: UIViewController {
         }
     }
     
+    //Tap playlist image to init the segue
     @IBAction func showPlaylistDetail(sender: AnyObject) {
         performSegueWithIdentifier("showPlaylistDetailSegue", sender: sender)
     }
