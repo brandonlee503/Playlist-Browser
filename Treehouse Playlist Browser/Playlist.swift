@@ -29,9 +29,10 @@ struct Playlist {
         let largeIconName = playlistDictionary["largeIcon"] as! String!
         largeIcon = UIImage(named: largeIconName)
         
-        if playlistDictionary["artist"] != nil {
+        artists += playlistDictionary["artists"] as! [String]
+        /*if playlistDictionary["artist"] != nil {
             artists += playlistDictionary["artist"] as! [String]
-        }
+        }*/
         
         let colorsDictionary = playlistDictionary["backgroundColor"] as! [String: CGFloat]
         backgroundColor = rgbColorFromDictionary(colorsDictionary)
