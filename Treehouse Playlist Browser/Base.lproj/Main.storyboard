@@ -18,24 +18,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="7tt-fA-7HO">
-                                <rect key="frame" x="127" y="247" width="66" height="73"/>
-                                <color key="backgroundColor" red="1" green="0.80000000000000004" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="3wh-LA-G0a" appends="YES" id="5pT-Qh-eBG"/>
-                                </connections>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="zp5-dE-L1R">
+                                <rect key="frame" x="2" y="66" width="157" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Crf-Vc-p9i">
+                                <rect key="frame" x="161" y="66" width="157" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="ocU-EH-Ror">
+                                <rect key="frame" x="2" y="233" width="157" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="PUB-rP-FQa">
+                                <rect key="frame" x="161" y="233" width="157" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="SVj-aG-zIP">
+                                <rect key="frame" x="2" y="400" width="157" height="165"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="IMd-o4-MjV">
+                                <rect key="frame" x="161" y="400" width="157" height="165"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="7tt-fA-7HO" secondAttribute="centerY" id="08T-SQ-i8u"/>
-                            <constraint firstAttribute="centerX" secondItem="7tt-fA-7HO" secondAttribute="centerX" id="2b0-gH-4xn"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="width" secondItem="PUB-rP-FQa" secondAttribute="width" id="2Uv-nB-WjI"/>
+                            <constraint firstItem="PUB-rP-FQa" firstAttribute="top" secondItem="Crf-Vc-p9i" secondAttribute="bottom" constant="2" id="48N-eP-yWP"/>
+                            <constraint firstItem="SVj-aG-zIP" firstAttribute="top" secondItem="ocU-EH-Ror" secondAttribute="bottom" constant="2" id="6VF-UM-ibr"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="width" secondItem="zp5-dE-L1R" secondAttribute="width" id="74z-vl-8U3"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="top" secondItem="PUB-rP-FQa" secondAttribute="bottom" constant="2" id="8Yg-R6-9Gd"/>
+                            <constraint firstAttribute="trailing" secondItem="IMd-o4-MjV" secondAttribute="trailing" constant="2" id="8r2-ak-o3P"/>
+                            <constraint firstAttribute="trailing" secondItem="PUB-rP-FQa" secondAttribute="trailing" constant="2" id="B1R-nj-zbg"/>
+                            <constraint firstItem="PUB-rP-FQa" firstAttribute="leading" secondItem="ocU-EH-Ror" secondAttribute="trailing" constant="2" id="CmH-0A-rOr"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="width" secondItem="Crf-Vc-p9i" secondAttribute="width" id="GFO-Gc-rF4"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="leading" secondItem="SVj-aG-zIP" secondAttribute="trailing" constant="2" id="IyD-VI-tE5"/>
+                            <constraint firstItem="zp5-dE-L1R" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="2" id="LTL-Tu-iTL"/>
+                            <constraint firstAttribute="trailing" secondItem="Crf-Vc-p9i" secondAttribute="trailing" constant="2" id="MyP-Xk-esR"/>
+                            <constraint firstItem="ocU-EH-Ror" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="Myb-q8-DBD"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="height" secondItem="Crf-Vc-p9i" secondAttribute="height" id="Vfq-QN-maG"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="height" secondItem="PUB-rP-FQa" secondAttribute="height" id="bil-nS-qz6"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="IMd-o4-MjV" secondAttribute="bottom" constant="3" id="gNe-Hf-Jzt"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="width" secondItem="ocU-EH-Ror" secondAttribute="width" id="idX-MY-zzO"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="height" secondItem="ocU-EH-Ror" secondAttribute="height" id="nYj-RI-Uog"/>
+                            <constraint firstItem="zp5-dE-L1R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="sGA-ne-wTE"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="height" secondItem="SVj-aG-zIP" secondAttribute="height" id="sxF-Dt-aFb"/>
+                            <constraint firstItem="Crf-Vc-p9i" firstAttribute="leading" secondItem="zp5-dE-L1R" secondAttribute="trailing" constant="2" id="tYD-W9-Avs"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="SVj-aG-zIP" secondAttribute="bottom" constant="3" id="ttf-dp-647"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="height" secondItem="zp5-dE-L1R" secondAttribute="height" id="wqv-7r-dz3"/>
+                            <constraint firstItem="ocU-EH-Ror" firstAttribute="top" secondItem="zp5-dE-L1R" secondAttribute="bottom" constant="2" id="xTu-At-F80"/>
+                            <constraint firstItem="Crf-Vc-p9i" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="2" id="yUk-a1-3ej"/>
+                            <constraint firstItem="SVj-aG-zIP" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="2" id="yYg-fm-qS9"/>
+                            <constraint firstItem="IMd-o4-MjV" firstAttribute="width" secondItem="SVj-aG-zIP" secondAttribute="width" id="ynp-TW-abl"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Playlists" id="ksO-LS-W7O"/>
                     <connections>
-                        <outlet property="playlistImageView0" destination="7tt-fA-7HO" id="8Nv-GO-hfC"/>
+                        <outlet property="playlistImageView0" destination="zp5-dE-L1R" id="YHf-nV-62N"/>
+                        <outlet property="playlistImageView1" destination="Crf-Vc-p9i" id="oQT-WT-6Rm"/>
+                        <outlet property="playlistImageView2" destination="ocU-EH-Ror" id="Qvp-gF-CCU"/>
+                        <outlet property="playlistImageView3" destination="PUB-rP-FQa" id="20x-0J-zE0"/>
+                        <outlet property="playlistImageView4" destination="SVj-aG-zIP" id="kav-lv-uBp"/>
+                        <outlet property="playlistImageView5" destination="IMd-o4-MjV" id="8YD-Y7-9H5"/>
                         <segue destination="7xG-Ss-PqM" kind="push" identifier="showPlaylistDetailSegue" id="pjn-i4-djf"/>
                     </connections>
                 </viewController>
